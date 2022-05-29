@@ -1,5 +1,5 @@
 {
-  "address": "0x95abDa53Bc5E9fBBDce34603614018d32CED219e",
+  "address": "0x3bEcf83939f34311b6bEe143197872d877501B11",
   "txCount": 1,
   "hodler": 1,
   "superStaker": 1,
@@ -13,3 +13,16 @@
   "l2User": 1,
   "publicGoods": 100
 }
+
+Sent tx: 34
+Received Tx: 38
+Staking Tx: 0
+AMM Tx: 128
+Aggregator Tx: 0
+Derivative Tx: 0
+Dao Tx: 0
+Multisig Tx: 0
+Offchain Tx: 0
+Layer 2 Tx: 4
+ENS Tx: 12
+Public Goods Tx: 12

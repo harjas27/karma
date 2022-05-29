@@ -27,7 +27,7 @@ public class Karma {
         String []centralisedExchanges = {"0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE", "0x92D6C1e31e14520e676a687F0a93788B716BEff5", "0x92D6C1e31e14520e676a687F0a93788B716BEff5", "0xDFd5293D8e347dFe59E90eFd55b2956a1343963d"};
         String gnosisMultiSig = "0x7AE109A63ff4DC852e063a673b40BED85D22E585";
         String []l2Bridges = {"0xA0c68C638235ee32657e8f720a23ceC1bFc77C77", "0xaBEA9132b05A70803a4E85094fD0e1800777fBEF"};
-        String []ensContract = {"0x084b1c3C81545d370f3634392De611CaaBFf8148", "0xa5409ec958C83C3f309868babACA7c86DCB077c1"};
+        String []ensContract = {"0x084b1c3C81545d370f3634392De611CaaBFf8148", "0xa5409ec958C83C3f309868babACA7c86DCB077c1", "0x7Be8076f4EA4A4AD08075C2508e481d6C946D12b"};
         String []publicGoodContracts = {"0x7d655c57f71464B6f83811C55D84009Cd9f5221C"};
 
         String []protocols = {"uniswap", "balancer", "1inch", "aave", "compound", "synthetix", "convex"};
@@ -204,7 +204,7 @@ public class Karma {
                 }
 
             }
-
+            System.out.println("Processed " + txs.size() + " transactions");
             JsonObject paginationDetails = data.getAsJsonObject("pagination");
             String hasMore = paginationDetails.get("has_more").getAsString();
             if (hasMore.equalsIgnoreCase("false")) {
